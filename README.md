@@ -19,7 +19,7 @@ Desktop versions use [sciter](https://sciter.com/) as GUI sdk.
 
 ## File Structure
 
-- libs/hbb_common: video codec, config, tcp/udp wrapper, and some other utility functions
+- libs/hbb_common: video codec, config, tcp/udp wrapper, protobuf, fs functions for file transfer, and some other utility functions
 - libs/scrap: screen capture
 - libs/enigo: platform specific keyboard/mouse control
 - src/ui: GUI (sciter code)
