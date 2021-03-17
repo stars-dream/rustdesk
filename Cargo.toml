@@ -1,7 +1,7 @@
 [package]
 name = "rustdesk"
 version = "1.1.2"
-authors = ["open-trade <info@opentradesolutions.com>"]
+authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2018"
 build= "build.rs"
 description = "A remote control software."
