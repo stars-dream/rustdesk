@@ -19,10 +19,10 @@ Desktop versions use [sciter](https://sciter.com/) as GUI sdk.
 
 ## File Structure
 
-- libs/hbb_common: video codec, config, tcp/udp wrapper, protobuf, fs functions for file transfer, and some other utility functions
-- libs/scrap: screen capture
-- libs/enigo: platform specific keyboard/mouse control
-- src/ui: GUI (sciter code)
-- src/server: audio/clipboard/input/video services, and network connections
-- src/rendezvous_mediator.rs: Maintain heatbeat with remote rendezvous server with UDP, and wait for remote direct (TCP hole punching) or relayed connection
-- src/platform: platform specific code
+- **libs/hbb_common**: video codec, config, tcp/udp wrapper, protobuf, fs functions for file transfer, and some other utility functions
+- **libs/scrap**: screen capture
+- **libs/enigo**: platform specific keyboard/mouse control
+- **src/ui**: GUI (sciter code)
+- **src/server**: audio/clipboard/input/video services, and network connections
+- **src/rendezvous_mediator.rs**: Maintain heatbeat with remote rendezvous server with UDP, and wait for remote direct (TCP hole punching) or relayed connection
+- **src/platform**: platform specific code
