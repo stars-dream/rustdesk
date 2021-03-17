@@ -4,6 +4,8 @@ Yet another open source remote desktop software. [rustdesk-server](https://githu
 
 [**BINARY DOWNLOAD**](https://github.com/rustdesk/rustdesk/releases)
 
+Desktop versions use [sciter](https://sciter.com/) as GUI sdk.
+
 ## How To Build
 
 * Prepare your Rust development env and C++ build env
